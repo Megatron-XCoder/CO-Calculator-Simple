@@ -182,7 +182,7 @@ export default function SetupForm({ initialSetup, onSave }: SetupFormProps) {
                           id={`co-code-${index}`}
                           value={co.code}
                           onChange={(e) => updateCO(index, e.target.value)}
-                          placeholder="e.g., CO1"
+                          placeholder="e.g., 1"
                           className="border-blue-200 focus:border-blue-500"
                       />
                     </div>
